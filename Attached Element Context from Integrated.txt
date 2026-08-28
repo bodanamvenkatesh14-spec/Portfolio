@@ -1,0 +1,86 @@
+Attached Element Context from Integrated Browser
+
+Element: section#home.hero.wrap
+
+URL: file:///C:/Users/91765/OneDrive/Desktop/portfolio/index.html
+
+HTML Path: section#home.hero.wrap
+
+Outer HTML:
+```html
+<section class="hero wrap" id="home"><div class="social-links" aria-label="Social links"><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">in</a><a class="tiktok" href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok">♪</a><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">◎</a><a class="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">f</a></div><div class="hero-content reveal in"><div class="eyebrow mono">Hello, I'm</div><h1>Bodanam <span>Venkatesh</span></h1><p class="hero-copy">Software Developer creating intelligent solutions with AI, Machine Learning, IoT, Python, and modern web technologies.</p><div class="hero-links"><a class="button" href="#projects">See my work <span>↗</span></a><a class="button ghost" href="#contact">Let's talk <span>↗</span></a></div></div><div class="hero-visual reveal in"><div class="portrait" style="transform: rotateY(0deg) rotateX(0deg);"><img src="my image.png" alt="Bodanam Venkatesh"><span class="portrait-label mono">3D profile</span></div></div></section>
+```
+
+Dimensions:
+- top: -110px
+- left: 0px
+- width: 1184px
+- height: 760px
+
+CSS:
+```css
+* { box-sizing:border-box; margin:0; padding:0; }
+section { padding:125px 0; border-top:1px solid var(--line); }
+section, .skills-section { background:rgba(255,250,240,.24); }
+.wrap { width:min(1160px,calc(100% - 64px)); margin:auto; }
+.hero { min-height:100vh; display:grid; grid-template-columns:290px minmax(330px,1fr) 340px; gap:28px; align-items:center; padding-top:82px; position:relative; overflow:hidden; background:radial-gradient(circle at 50% 44%,rgba(0,147,255,.2),transparent 28%),linear-gradient(180deg,#020817,#04152d 68%,#020916); }
+.hero { width:100%; max-width:none; margin:0; padding-left:max(32px,calc((100vw - 1160px)/2)); padding-right:max(32px,calc((100vw - 1160px)/2)); }
+.hero { background:rgba(255,250,240,.16); }
+.hero { padding-top:64px; }
+
+/* Pseudo-elements */
+.hero:before { content:''; position:absolute; inset:52% -10% -20%; opacity:.38; background-image:linear-gradient(rgba(0,170,255,.28) 1px,transparent 1px),linear-gradient(90deg,rgba(0,170,255,.28) 1px,transparent 1px); background-size:75px 75px; transform:perspective(300px) rotateX(57deg); transform-origin:top; }
+.hero:before { opacity:.18; background-image:linear-gradient(rgba(121,57,40,.28) 1px,transparent 1px),linear-gradient(90deg,rgba(121,57,40,.28) 1px,transparent 1px); }
+.hero:after { content:'BV'; position:absolute; right:-35px; bottom:-130px; color:rgba(0,181,255,.035); font-size:34vw; font-weight:700; line-height:1; pointer-events:none; }
+.hero:after { color:rgba(121,57,40,.08); }
+
+/* Inherited */
+body { color:var(--paper); font-family:'Space Grotesk',sans-serif }
+body { color:var(--ink) }
+
+/* Resolved values */
+margin: 0px;
+padding: 64px 32px 125px;
+align-items: center;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(255, 250, 240, 0.16);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+bottom: 0px;
+box-sizing: border-box;
+color: rgb(38, 25, 20);
+column-gap: 28px;
+content: normal;
+display: grid;
+font-family: "Space Grotesk", sans-serif;
+font-size: 16px;
+font-weight: 400;
+grid-template-columns: 289.996px 434.2px 339.996px;
+height: 759.653px;
+left: 0px;
+line-height: normal;
+max-width: none;
+min-height: 721.452px;
+opacity: 1;
+overflow-x: hidden;
+overflow-y: hidden;
+pointer-events: auto;
+position: relative;
+right: 0px;
+row-gap: 28px;
+top: 0px;
+transform: none;
+transform-origin: 592.079px 379.827px;
+unicode-bidi: isolate /*UA*/;
+width: 1184.16px;
+
+/* CSS variables */
+--paper: #fffaf0;
+--line: rgba(73,45,34,.22);
+--ink: #261914;
+```
