@@ -86,6 +86,17 @@ document.querySelectorAll('.skill').forEach((skill) => {
   });
 });
 
+document.querySelectorAll('.project[data-pdf]').forEach((project) => {
+  const openProjectPdf = () => window.open(project.dataset.pdf, '_blank', 'noopener,noreferrer');
+  project.addEventListener('click', openProjectPdf);
+  project.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openProjectPdf();
+    }
+  });
+});
+
 const backButton = document.querySelector('.skill-back');
 if (backButton) {
   backButton.addEventListener('click', () => {
