@@ -49,7 +49,8 @@ const skillConcepts = {
   'Machine Learning': ['Data preparation', 'Feature selection', 'Regression', 'Classification', 'Clustering', 'Model evaluation', 'scikit-learn basics'],
   'Deep Learning': ['Neural network fundamentals', 'Perceptrons and activation functions', 'Forward and backward propagation', 'Convolutional neural networks', 'Recurrent neural networks', 'Training, validation, and testing', 'TensorFlow and Keras basics'],
   HTML: ['Semantic structure', 'Headings, paragraphs, and links', 'Images and accessibility', 'Forms and validation', 'Tables and lists', 'Audio and video', 'SEO-friendly markup'],
-  CSS: ['Selectors and the cascade', 'Box model', 'Flexbox', 'CSS Grid', 'Responsive layouts', 'Transitions and animations', 'Colors, spacing, and typography']
+  CSS: ['Selectors and the cascade', 'Box model', 'Flexbox', 'CSS Grid', 'Responsive layouts', 'Transitions and animations', 'Colors, spacing, and typography'],
+  JavaScript: ['Variables and data types', 'Functions and scope', 'Arrays and objects', 'DOM manipulation', 'Events and event listeners', 'Asynchronous JavaScript', 'API integration basics']
 };
 
 const skillDetail = document.querySelector('#skill-detail');
