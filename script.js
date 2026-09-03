@@ -97,6 +97,17 @@ document.querySelectorAll('.project[data-pdf]').forEach((project) => {
   });
 });
 
+document.querySelectorAll('.project[data-link]').forEach((project) => {
+  const openProjectLink = () => window.open(project.dataset.link, '_blank', 'noopener,noreferrer');
+  project.addEventListener('click', openProjectLink);
+  project.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openProjectLink();
+    }
+  });
+});
+
 const backButton = document.querySelector('.skill-back');
 if (backButton) {
   backButton.addEventListener('click', () => {
